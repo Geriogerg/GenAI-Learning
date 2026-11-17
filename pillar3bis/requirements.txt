@@ -1,0 +1,11 @@
+# pillar 3bis - agents for computer vision (+ everything from pillar 3)
+groq>=1.0
+python-dotenv>=1.0
+pydantic>=2.0
+mcp>=2.0
+opencv-python>=4.9
+numpy
+pillow
+ultralytics>=8.3
+sentence-transformers>=3.0
+chromadb>=1.0

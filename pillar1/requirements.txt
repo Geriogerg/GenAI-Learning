@@ -1,0 +1,3 @@
+# pillar 1 - LLM APIs
+groq>=1.0
+python-dotenv>=1.0

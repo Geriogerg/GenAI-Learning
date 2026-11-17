@@ -1,0 +1,9 @@
+# pillar 2 - RAG
+# lower bounds only for now, run `pip freeze > requirements.lock.txt` once it all works
+groq>=0.30
+python-dotenv>=1.0
+chromadb>=1.0
+sentence-transformers>=3.0
+pypdf>=5.0
+rank-bm25>=0.2.2
+numpy

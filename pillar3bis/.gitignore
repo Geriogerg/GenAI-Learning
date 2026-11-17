@@ -1,0 +1,6 @@
+.env
+__pycache__/
+image_db/
+yolo11n.pt
+outputs/*
+!outputs/.gitkeep

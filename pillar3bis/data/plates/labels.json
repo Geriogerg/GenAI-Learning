@@ -1,0 +1,660 @@
+[
+ {
+  "file": "plate_000.jpg",
+  "defect": "scratch",
+  "subtle": true,
+  "bbox": [
+   127,
+   169,
+   142,
+   200
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_001.jpg",
+  "defect": "scratch",
+  "subtle": false,
+  "bbox": [
+   67,
+   106,
+   118,
+   187
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_002.jpg",
+  "defect": "scratch",
+  "subtle": false,
+  "bbox": [
+   81,
+   152,
+   168,
+   187
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_003.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_004.jpg",
+  "defect": "stain",
+  "subtle": true,
+  "bbox": [
+   113,
+   115,
+   177,
+   179
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_005.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_006.jpg",
+  "defect": "scratch",
+  "subtle": true,
+  "bbox": [
+   160,
+   208,
+   197,
+   239
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_007.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_008.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   102,
+   111,
+   171,
+   180
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_009.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_010.jpg",
+  "defect": "stain",
+  "subtle": false,
+  "bbox": [
+   75,
+   120,
+   139,
+   184
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_011.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_012.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_013.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_014.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   260,
+   260,
+   296,
+   296
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_015.jpg",
+  "defect": "scratch",
+  "subtle": true,
+  "bbox": [
+   208,
+   221,
+   241,
+   238
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_016.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   24,
+   24,
+   60,
+   60
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_017.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   69,
+   148,
+   118,
+   197
+  ],
+  "imaging_issue": "blur"
+ },
+ {
+  "file": "plate_018.jpg",
+  "defect": "scratch",
+  "subtle": false,
+  "bbox": [
+   178,
+   158,
+   199,
+   297
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_019.jpg",
+  "defect": "stain",
+  "subtle": false,
+  "bbox": [
+   51,
+   92,
+   115,
+   156
+  ],
+  "imaging_issue": "blur"
+ },
+ {
+  "file": "plate_020.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   97,
+   119,
+   164,
+   186
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_021.jpg",
+  "defect": "scratch",
+  "subtle": false,
+  "bbox": [
+   39,
+   195,
+   112,
+   222
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_022.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_023.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_024.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   260,
+   24,
+   296,
+   60
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_025.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_026.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   260,
+   24,
+   296,
+   60
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_027.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   98,
+   195,
+   141,
+   238
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_028.jpg",
+  "defect": "stain",
+  "subtle": false,
+  "bbox": [
+   47,
+   149,
+   111,
+   213
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_029.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   143,
+   214,
+   190,
+   261
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_030.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   260,
+   24,
+   296,
+   60
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_031.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": "dark"
+ },
+ {
+  "file": "plate_032.jpg",
+  "defect": "stain",
+  "subtle": false,
+  "bbox": [
+   95,
+   126,
+   159,
+   190
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_033.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_034.jpg",
+  "defect": "stain",
+  "subtle": false,
+  "bbox": [
+   53,
+   57,
+   117,
+   121
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_035.jpg",
+  "defect": "scratch",
+  "subtle": true,
+  "bbox": [
+   136,
+   133,
+   153,
+   164
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_036.jpg",
+  "defect": "stain",
+  "subtle": false,
+  "bbox": [
+   185,
+   189,
+   249,
+   253
+  ],
+  "imaging_issue": "dark"
+ },
+ {
+  "file": "plate_037.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   260,
+   24,
+   296,
+   60
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_038.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_039.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_040.jpg",
+  "defect": "scratch",
+  "subtle": false,
+  "bbox": [
+   185,
+   206,
+   260,
+   227
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_041.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   190,
+   120,
+   231,
+   161
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_042.jpg",
+  "defect": "stain",
+  "subtle": false,
+  "bbox": [
+   38,
+   81,
+   102,
+   145
+  ],
+  "imaging_issue": "overexposed"
+ },
+ {
+  "file": "plate_043.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_044.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   181,
+   213,
+   218,
+   250
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_045.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": "overexposed"
+ },
+ {
+  "file": "plate_046.jpg",
+  "defect": "stain",
+  "subtle": true,
+  "bbox": [
+   126,
+   197,
+   190,
+   261
+  ],
+  "imaging_issue": "blur"
+ },
+ {
+  "file": "plate_047.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   260,
+   260,
+   296,
+   296
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_048.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   199,
+   137,
+   254,
+   192
+  ],
+  "imaging_issue": "blur"
+ },
+ {
+  "file": "plate_049.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   260,
+   260,
+   296,
+   296
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_050.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   200,
+   124,
+   241,
+   165
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_051.jpg",
+  "defect": "scratch",
+  "subtle": false,
+  "bbox": [
+   223,
+   51,
+   232,
+   134
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_052.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": "overexposed"
+ },
+ {
+  "file": "plate_053.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   260,
+   24,
+   296,
+   60
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_054.jpg",
+  "defect": "scratch",
+  "subtle": false,
+  "bbox": [
+   163,
+   72,
+   262,
+   103
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_055.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_056.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_057.jpg",
+  "defect": "scratch",
+  "subtle": false,
+  "bbox": [
+   191,
+   122,
+   278,
+   141
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_058.jpg",
+  "defect": "stain",
+  "subtle": true,
+  "bbox": [
+   183,
+   167,
+   247,
+   231
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_059.jpg",
+  "defect": "dent",
+  "subtle": false,
+  "bbox": [
+   82,
+   110,
+   133,
+   161
+  ],
+  "imaging_issue": "dark"
+ },
+ {
+  "file": "plate_060.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_061.jpg",
+  "defect": "missing_screw",
+  "subtle": false,
+  "bbox": [
+   24,
+   24,
+   60,
+   60
+  ],
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_062.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ },
+ {
+  "file": "plate_063.jpg",
+  "defect": "ok",
+  "subtle": false,
+  "bbox": null,
+  "imaging_issue": null
+ }
+]

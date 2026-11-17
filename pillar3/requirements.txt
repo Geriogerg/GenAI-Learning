@@ -1,0 +1,14 @@
+# pillar 3 - agents
+# (steps 3 and 5 also use the pillar 2 packages: chromadb, sentence-transformers, rank-bm25, pypdf)
+groq>=1.0
+python-dotenv>=1.0
+pydantic>=2.0
+langgraph>=1.0
+langchain-groq>=1.0
+mcp>=2.0
+pandas>=2.0
+matplotlib>=3.8
+chromadb>=1.0
+sentence-transformers>=3.0
+rank-bm25>=0.2.2
+pypdf>=5.0
