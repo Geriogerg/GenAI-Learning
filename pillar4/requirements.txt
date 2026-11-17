@@ -1,0 +1,6 @@
+# pillar 4 - local part (the notebooks install their own packages on Colab)
+groq>=1.0
+python-dotenv>=1.0
+ollama>=0.6
+numpy
+torch>=2.2

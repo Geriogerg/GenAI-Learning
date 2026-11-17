@@ -1,0 +1,6 @@
+.env
+__pycache__/
+*.pt
+*.ts
+outputs/*
+!outputs/.gitkeep

@@ -1,0 +1,17 @@
+# docker compose up --build      -> http://localhost:8000/docs
+# docker compose down
+services:
+  api:
+    build: .
+    ports:
+      - "8000:8000"
+    env_file:
+      - path: ../.env          # your GROQ_API_KEY in d:\pythoncode\.env
+        required: false
+      - path: .env             # optional local overrides (copy .env.example)
+        required: false
+    environment:
+      RATE_LIMIT_PER_MINUTE: "30"
+    volumes:
+      - ./logs:/srv/logs       # request logs survive container restarts, lesson 6 reads them
+    restart: unless-stopped

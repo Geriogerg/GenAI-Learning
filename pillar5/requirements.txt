@@ -1,0 +1,7 @@
+# what the SERVICE needs (installed in the Docker image)
+fastapi>=0.115
+uvicorn[standard]>=0.30
+groq>=1.0
+python-dotenv>=1.0
+chromadb>=1.0
+numpy

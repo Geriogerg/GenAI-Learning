@@ -1,0 +1,14 @@
+# pillar 6 - vision foundation models + document AI
+ultralytics>=8.4          # YOLOE-26, SAM 2, MobileSAM
+clip @ git+https://github.com/ultralytics/CLIP.git   # text encoder tokenizer for YOLOE prompts
+torch>=2.2
+torchvision>=0.17
+opencv-python>=4.9
+numpy
+docling>=2.50
+pypdf>=5.0
+pypdfium2>=4.30
+reportlab>=4.0
+pydantic>=2.0
+groq>=1.0
+python-dotenv>=1.0

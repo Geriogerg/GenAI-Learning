@@ -1,0 +1,24 @@
+# Continuous integration: on every push / pull request, GitHub runs the tests for free.
+# Works when this folder is the root of a GitHub repository.
+name: tests
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    env:
+      FAKE_LLM: "1"      # no API key in CI, no quota spent
+      FAKE_EMBED: "1"    # no model download
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+          cache: pip
+      - run: pip install -r requirements-dev.txt
+      - run: pytest -q
+      - name: Docker image builds
+        run: docker build -t docs-assistant .

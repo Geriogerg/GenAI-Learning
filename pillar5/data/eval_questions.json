@@ -1,0 +1,74 @@
+[
+  {
+    "question": "Above which PSI value do we consider that drift is detected?",
+    "source": "drift_monitoring_policy.md",
+    "must_contain": ["above 0.25"],
+    "reference_answer": "Drift is detected when the PSI is above 0.25 (0.1 to 0.25 is only a warning)."
+  },
+  {
+    "question": "How many labeled samples do we need before retraining starts automatically?",
+    "source": "drift_monitoring_policy.md",
+    "must_contain": ["10,000"],
+    "reference_answer": "At least 10,000 new labeled samples. Below that, retraining is a manual decision of the owner."
+  },
+  {
+    "question": "Where do drift alerts get posted?",
+    "source": "drift_monitoring_policy.md",
+    "must_contain": ["#cv-monitoring"],
+    "reference_answer": "In the #cv-monitoring Slack channel, and a ticket is opened on the ML-OPS Jira board."
+  },
+  {
+    "question": "How long does the A/B test last?",
+    "source": "deployment_runbook.md",
+    "must_contain": ["48 hours"],
+    "reference_answer": "48 hours, with 50% of the traffic on each version."
+  },
+  {
+    "question": "What is the latency budget to deploy a model?",
+    "source": "deployment_runbook.md",
+    "must_contain": ["below 50 ms"],
+    "reference_answer": "The p95 latency must be below 50 ms per image on the Jetson Orin, pre-processing included."
+  },
+  {
+    "question": "How do I roll back a model in production?",
+    "source": "deployment_runbook.md",
+    "must_contain": ["mlctl rollback"],
+    "reference_answer": "Run mlctl rollback <model> --to <version>. It takes under two minutes and needs no approval; post in #cv-monitoring afterwards."
+  },
+  {
+    "question": "Can I deploy a new model on Friday afternoon?",
+    "source": "deployment_runbook.md",
+    "must_contain": ["14:00"],
+    "reference_answer": "No, there are no deployments on Fridays after 14:00 (emergency rollbacks are allowed)."
+  },
+  {
+    "question": "What caused the YOLOv8 accuracy drop on line 3?",
+    "source": "postmortem_yolov8_march_2024.md",
+    "must_contain": ["camera supplier"],
+    "reference_answer": "Line 3 changed camera supplier; the new cameras have a different white balance and lower resolution, so images no longer matched the training data."
+  },
+  {
+    "question": "How much did the mAP drop during the March incident?",
+    "source": "postmortem_yolov8_march_2024.md",
+    "must_contain": ["0.812"],
+    "reference_answer": "mAP@0.5 on line 3 dropped from 0.876 to 0.812."
+  },
+  {
+    "question": "What quick fix was used before the model was retrained?",
+    "source": "postmortem_yolov8_march_2024.md",
+    "must_contain": ["0.35"],
+    "reference_answer": "The confidence threshold was lowered from 0.5 to 0.35 on line 3, accepting more false positives."
+  },
+  {
+    "question": "Who is responsible for the EfficientNet model?",
+    "source": "model_registry.md",
+    "must_contain": ["owned by Julien"],
+    "reference_answer": "Julien owns EfficientNet."
+  },
+  {
+    "question": "Why isn't ViT Large used in production?",
+    "source": "model_registry.md",
+    "must_contain": ["120 ms"],
+    "reference_answer": "Its latency is 120 ms on the Orin, far above the 50 ms budget, so it was deprioritized."
+  }
+]
